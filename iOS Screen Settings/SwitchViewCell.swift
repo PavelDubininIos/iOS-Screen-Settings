@@ -72,5 +72,12 @@ class SwitchViewCell: UITableViewCell {
         contentView.addSubview(mySwitch)
         iconContainer.addSubview(iconImage)
     }
+    
+    func configure(with model: SwitchCell) {
+        title.text = model.title
+        iconImage.image = model.icon
+        iconContainer.backgroundColor = model.iconBackgroundColor
+        mySwitch.isOn = model.isOn
+    }
 }
 

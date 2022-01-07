@@ -71,5 +71,12 @@ class TextViewCell: UITableViewCell {
         contentView.addSubview(rightText)
         iconContainer.addSubview(iconImage)
     }
+    
+    func configure(with model: TextCell) {
+        title.text = model.title
+        iconImage.image = model.icon
+        iconContainer.backgroundColor = model.iconBackgroundColor
+        rightText.text = model.text
+    }
 }
 
