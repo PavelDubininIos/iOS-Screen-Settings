@@ -1,6 +1,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    static var models = [Cells]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
