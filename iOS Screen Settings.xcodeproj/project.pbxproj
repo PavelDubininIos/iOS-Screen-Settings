@@ -14,6 +14,7 @@
 		EDCF1F642788B91D00D76728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF1F622788B91D00D76728 /* LaunchScreen.storyboard */; };
 		EDCF1F6E2788BBB400D76728 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF1F6D2788BBB400D76728 /* SettingsViewCell.swift */; };
 		EDCF1F702788BC6400D76728 /* SwitchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF1F6F2788BC6400D76728 /* SwitchViewCell.swift */; };
+		EDCF1F722788BD8C00D76728 /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF1F712788BD8C00D76728 /* TextViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EDCF1F652788B91D00D76728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCF1F6D2788BBB400D76728 /* SettingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
 		EDCF1F6F2788BC6400D76728 /* SwitchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewCell.swift; sourceTree = "<group>"; };
+		EDCF1F712788BD8C00D76728 /* TextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EDCF1F572788B91D00D76728 /* AppDelegate.swift */,
 				EDCF1F5B2788B91D00D76728 /* ViewController.swift */,
 				EDCF1F6D2788BBB400D76728 /* SettingsViewCell.swift */,
+				EDCF1F712788BD8C00D76728 /* TextViewCell.swift */,
 				EDCF1F6F2788BC6400D76728 /* SwitchViewCell.swift */,
 				EDCF1F5D2788B91D00D76728 /* Main.storyboard */,
 				EDCF1F602788B91D00D76728 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				EDCF1F702788BC6400D76728 /* SwitchViewCell.swift in Sources */,
 				EDCF1F5C2788B91D00D76728 /* ViewController.swift in Sources */,
+				EDCF1F722788BD8C00D76728 /* TextViewCell.swift in Sources */,
 				EDCF1F6E2788BBB400D76728 /* SettingsViewCell.swift in Sources */,
 				EDCF1F582788B91D00D76728 /* AppDelegate.swift in Sources */,
 			);
