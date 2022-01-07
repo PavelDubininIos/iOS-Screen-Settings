@@ -60,4 +60,10 @@ class SettingsViewCell: UITableViewCell {
         contentView.addSubview(iconContainer)
         iconContainer.addSubview(iconImage)
     }
+    
+    func configure(with model: StandardCell) {
+        title.text = model.title
+        iconImage.image = model.icon
+        iconContainer.backgroundColor = model.iconBackgroundColor
+    }
 }
